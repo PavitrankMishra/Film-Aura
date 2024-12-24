@@ -1,0 +1,28 @@
+.container {
+  padding: 30px;
+  background-image: url("../src/Assets/img-1.jpeg");
+  background-repeat: repeat;
+  height: 100%;
+  background-size: auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 15px; 
+    background-size: cover; 
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 20px; 
+    background-size: cover; 
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    padding: 30px; 
+    background-size: auto; 
+  }
+}
